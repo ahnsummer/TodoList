@@ -27,7 +27,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> 
       
       <button type="submit" class="btn bg-green-500 text-white font-semibold">
         Save
