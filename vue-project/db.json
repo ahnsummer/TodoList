@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "subject": "clean my room",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "subject": "buy birthday gift for him",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "subject": "new one",
+      "completed": true,
+      "id": 4
+    },
+    {
+      "subject": "this is also new",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "subject": "cassia",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "subject": "nice to meet you",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "subject": "choosing.. a choosing the person that you want to share your life with is one of the most important decisions any of us makes, ever!",
+      "completed": true,
+      "id": 9
+    },
+    {
+      "subject": "Beacause when it's wrong it turns your life to gray",
+      "completed": true,
+      "id": 10
+    },
+    {
+      "subject": "And sometimes you don't even notice until you wake up one morning and realize years have gone by",
+      "completed": true,
+      "id": 11
+    }
+  ]
+}

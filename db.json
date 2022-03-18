@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "subject": "clean my room",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "subject": "buy birthday gift for him",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "subject": "new one",
+      "completed": true,
+      "id": 4
+    },
+    {
+      "subject": "this is also new",
+      "completed": true,
+      "id": 5
+    }
+  ]
+}
