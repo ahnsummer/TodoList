@@ -50,7 +50,6 @@ export default {
     'delete-todo'
   ],
   setup(props, { emit }) {
-
     const router = useRouter();
 
     const toggleTodo = (index, event) => {
@@ -62,7 +61,6 @@ export default {
     };
 
     const moveToPage = (todoId) => {
-      console.log(todoId); 
       // router.push('/todos/' + todoId);
       // 위 로직을 100군데 이상에서 사용한다고 가정을한다면 수정할때 어렵다.
       router.push({
@@ -78,7 +76,6 @@ export default {
       deleteTodo,
       moveToPage,
     };
-    
   }
 };
 </script>

@@ -146,7 +146,6 @@ export default {
         //todos.value.push(res.data);
         getTodos(1);
       } catch (err) {
-        console.log(err);
         error.value = 'Something went wrong.';
       }
       /*
@@ -199,15 +198,12 @@ export default {
         //todos.value.splice(index, 1);
         getTodos(1);
       } catch (err) {
-        console.log(err);
         error.value = 'Something went wrong.';
       }
     };
 
     // 데이터베이스에서 toggle하기
     const toggleTodo = async (index, checked) => {
-      console.log(checked);
-
       const id = todos.value[index].id;
       try {
         // 데이터 업데이트
@@ -218,7 +214,6 @@ export default {
         // 배열 업데이트
         todos.value[index].completed = checked;
       } catch (err) {
-        console.log(err);
         error.value = 'Something went wrong.';
       }
     };
